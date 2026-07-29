@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "Bitter", serif;
+  font-optical-sizing: auto; 
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+.header-color{
+    background-color: #A20000;
+    width: 100vw;
+    height: 50px;
+}
+
+.heroimage{
+height: 100px;
+width: 300px;
+padding-left:20px ;
+padding-top: 20px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #F7F7F7;
+    padding-bottom: 20px;
+}
+.navlist{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    font-weight: bold;
+     font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.navlist :hover{
+    color: #97221B;
+}
+.carticon{
+    padding-right: 20px;
+}
+
+.searchbox{
+    height: 50px;
+    width: 400px;
+    overflow-wrap:normal;
+    overflow-x: visible;
+    border-radius: 30px;
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.stylesearch{
+    display: flex;
+    align-items: center;
+    
+}
+    
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
