@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.suggest.quickSuggestions": {
+        "commands": "on",
+        "arguments": "on"
+    }
+}
