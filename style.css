@@ -515,8 +515,8 @@ margin-right: 15px;
 .prod {
     background-color: #FEF0F0;
     padding: 15px;
-
-   
+    border: rgb(219, 219, 219) 2px solid;
+    
 }
 
 .best-img{
@@ -541,9 +541,10 @@ line-height: 25px;
 .best-tx3{
 font-size: 20px;
 font-weight: bold;
-color: #A20000;
+/* color: #A20000; */
 
 }
+
 
 
 .flex-prodfoot{
@@ -555,6 +556,7 @@ color: #A20000;
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
+     
 }
 
 
@@ -577,10 +579,27 @@ font-size: 20px;
     justify-content: space-between;
 }
 
-.flex-products :hover{
+.section3 .flex-products :hover{
     background-color: #A20000;
     color: #F7F7F7;
-
+    transition: all 0.5s ease;
+    
 }
 
 
+
+
+.sectext{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectext a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.hover-text :hover{
+    color: #A20000;
+}
