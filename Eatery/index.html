@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khady's</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="icon" type="image/png" href="./Images/favicon-eatery.png">
+</head>
+<body>
+  
+  <header> <!--NAVIGATION BAR-->
+    <div class="header-color"></div>
+    <nav>
+      <!-- For the links to other pages-->
+      <img src="./Images/eatery-image2.png" alt="" class="heroimage">
+    <ul class="navlist">
+        <li id="home-active"> <a href="#" class="link">Home</a></li>
+        <li  style="overflow-x: hidden;"><a href="#" class="link">Menu </a> </li>
+        <li style="overflow-x: hidden;"> <a href="#" class="link">Orders</a></li>
+        <li  style="overflow-x: hidden;"> <a href="#" class="link">Outlet</a> </li>
+      </ul>
+      <!--For the search box and cart icon-->
+      <div>
+
+      <div class="flex-search">
+        <div class="stylesearch">
+        <input class="searchbox" type="search" placeholder="    Search food...  "> 
+        <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: rgb(136, 134, 134);"></i></a>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping" style="color: rgb(0, 0, 0);"></i>  <div class="cart-red" style="font-size:11px;">1</div> 
+        </div>
+        
+      </div> 
+      
+    </nav>
+    
+  </header>  
+ 
+  <!-- First Section-->
+
+  <section class="section1">
+    <section class="welcome-tab">
+      <div class="text-welcome">
+        
+      <p style="color: #A20000; font-weight: bold; font-size: 25px;"> Welcome</p>
+      <p style="font-size: 60px; padding-top: 15px; font-weight: bold;"> Enjoy Your <br/> <span style="color: #A20000;">Delicious Food</span> </p>
+      <p style="font-size: 17px;padding-top: 20px; line-height: 20px;"> We well serve tasty food, 100% pure and fresh, hot-<br/> with love, so you would love it even more.</p>
+      </div>
+      
+
+      <div class="order-buttonsec">
+    
+        <div class="order-button">  Order Now</div>
+        <div class="play-button"> <i class="fa-solid fa-play fa-beat" style="color: rgb(238, 234, 234);"></i> </div>
+      
+      </div>
+
+      <div  class="flex-food" >
+        
+        <div class="flex-breakfast"> 
+          
+          <div class="breakfast-img"> <img class="welcome-food"src="./Images/breakfast.png" alt=""></div>
+              <div class="under-breakfast">
+               <p style="font-weight: bold; line-height: 25px; padding-left: 15px; padding-bottom: 15px;"> <span style="font-size: 20px;">Breakfast </span><br/> <span style="color: orange; font-size: 15px;"> 8 Items</span></p>
+               <div class="food-arrow"> <i class="fa-solid fa-chevron-right" style="color: rgb(255, 255, 255);"></i>
+               </div>
+               </div>
+          
+        </div>
+        
+         <div class="flex-breakfast"> 
+          <div id="combo" class="breakfast-img"> <img class="welcome-food"src="./Images/combo.png" alt=""></div>
+          <div id="combo2" class="under-breakfast">
+            <p style="font-weight: bold; line-height: 25px; padding-left: 15px; padding-bottom: 15px;"> <span style="font-size: 20px;"> Combo </span><br/> <span style="color: orange; font-size: 15px;"> 15 Items</span></p>
+            <div class="food-arrow"> <i class="fa-solid fa-chevron-right" style="color: rgb(255, 255, 255);"></i></div>
+          </div>
+         </div>
+        
+         <div class="flex-breakfast"> 
+          <div class="breakfast-img"> <img class="welcome-food"src="./Images/bakery.png" alt=""></div>
+          <div id="bakery" class="under-breakfast">
+            <p style="font-weight: bold; line-height: 25px; padding-left: 15px; padding-bottom: 15px;"> <span style="font-size: 20px;">Bakery </span><br/> <span style="color: orange;"> 8 Items</span></p>
+            <div class="food-arrow"> <i class="fa-solid fa-chevron-right" style="color: rgb(255, 255, 255);"></i></div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>  
+  </section>
+
+<!-- Burger section-->
+  <section class="burger-section">
+    <div>
+      <div class="cool-burger"> 
+     </div>   
+       <div class="pos-burger">
+      <img class="img-burger" src="./Images/eatery-burger.png" alt="">
+     </div>
+  </div>
+    
+  </section>
+
+  <section class="vantage">
+    <div class="vantage-1">
+        <div class="moto-icon">
+          <i  class="fa-solid fa-motorcycle" style="color: rgb(17, 17, 17);"></i>
+         </div> 
+         <div>
+          <span style="font-size: 25px; font-weight: bold;">Fast delivery</span> <br/> Free delivery for orders above $20
+          </div>
+         
+    </div>
+
+
+    <div class="vantage-1" id="wallet">
+        <div class="moto-icon" id="wallet-icon">  
+          <i class="fa-solid fa-wallet" style="color: rgb(0, 0, 0);"></i>
+         </div> 
+         <div>
+          <span style="font-size: 25px; font-weight: bold;"> Pick Up</span> <br/> Pick up and enjoy at our outlet
+          </div>
+         
+    </div>
+
+
+    <div class="vantage-1">
+        <div class="moto-icon"> 
+           <i class="fa-solid fa-utensils" style="color: rgb(0, 0, 0);"></i>
+         </div> 
+         <div>
+          <span style="font-size: 25px; font-weight: bold;"> Easy To</span> <br/> Easy to order food anytime, anywhere
+          </div>
+         
+    </div>
+      
+  </section>
+
+  </section>
+
+
+  <!-- ============ Section 2==============-->
+  <section class="section2">
+    <div class="grid-container1">
+      <div class="major"> 
+        <div class="promo-box">
+          <p class="promo-text"> Buy 2 <br/> Get 1 Free</p>
+        <br/>
+        <p class="promo-text2"> Limited time offer </p>
+        <br/>
+        <a href="#" class="promo-buttonlink">
+          <div class="promo-button"> Order Now </div>
+        </a>
+        </div>
+      </div>
+     
+      <div class="minor1">
+         <div class="promo-box2">
+               <p class="promo-texta"> Special Pizza </p>
+               <br/>
+               <p class="promo-text2a"> Up to 30% Off </p>
+               <br/>
+               <a href="#" id="promo-buttonlink2"   class="promo-buttonlink">
+                   <div id="opp" class="promo-button"> Order Now </div>
+               </a>
+      
+         </div>
+
+      </div>  
+    
+    
+    
+    <div id="minor2" class="minor1">
+      <div class="promo-box2">
+        <p class="promo-texta"> Italian Pasta</p>
+               <br/>
+               <p class="promo-text2a"> Up to 25% Off </p>
+               <br/>
+               <a href="#" id="promo-buttonlink2" class="promo-buttonlink">
+                   <div id="opp" class="promo-button"> Order Now </div>
+               </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ================ SECTION 3 ======================-->
+
+  <section class="section3">
+    <div class="sectext"> 
+      <div><span class="sectext2">Best</span> Products</div>
+
+      <div class="hover-text"> <a href="#">View all  <i class="fa-solid fa-arrow-right" style="color: rgb(0, 0, 0);"></i></a></div>
+
+    </div>
+    
+    <br/>  <!-- ITEM ONE-->
+    <div class="flex-products">
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/zinger-burger.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx">Zinger burger</p> 
+              <br/>
+              <p class="best-tx2"> Delicious zinger burger <br/>with extra cheese</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $4.99</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+<!-- ITEM 2-->
+
+
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/beefburger-eatery.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx"> Beef Burger</p> 
+              <br/>
+              <p class="best-tx2"> Juicy beef burger with<br/> fresh vegetables</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0,
+              0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $3.15</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+
+
+
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/hotdog-eatery.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx">Hot Dog</p> 
+              <br/>
+              <p class="best-tx2"> Delicious hot dog with <br/> special sauce</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $2.65</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+    
+
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/jollof-eat.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx"> Jollof Rice</p> 
+              <br/>
+              <p class="best-tx2"> Spicy jollof rice with <br/> grilled chicken</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $2.95</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+    
+    
+    
+      
+
+
+    </div>
+
+        <br/>
+    <div class="flex-products">
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/friedchicken-eat.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx">Chicken wings</p> 
+              <br/>
+              <p class="best-tx2"> Crispy fried chicken <br/> wings with sauce</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $3.50</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+
+
+
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/pizza-eatery.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx">Supreme Pizza</p> 
+              <br/>
+              <p class="best-tx2"> Pizza with supreme <br/> toppings</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $7.15</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+
+
+
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/pasta-eat.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx"> Pepperoni Pasta</p> 
+              <br/>
+              <p class="best-tx2"> Pasta in creamy sauce<br/> pepperoni</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          <div>
+             <p class="best-tx3"> $2.99</p>
+         </div>    
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+    
+
+      <a class="best-link" href="#" >
+      <div class="prod">
+        <div> <img class=" best-img"  src="./Images/chicken-eat.png" alt=""></div>
+
+        <div class="flex-prodtop">
+
+            <div> <p class="best-tx">Nsuorri</p> 
+              <br/>
+              <p class="best-tx2"> Well roasted chicken <br/>with spicy sauce</p>
+              <br/>
+             </div>  
+
+           <div class="heart">
+             <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+             
+           </div>
+
+        </div>
+
+        <div class="flex-prodfoot">
+          
+             <p class="best-tx3"> $3.45</p>
+           
+              
+          <div class="prod-cart"> 
+             <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+          </div>
+         
+         
+        </div>
+
+      </div>
+      </a>
+    
+    
+    
+      
+
+
+    </div>
+
+
+
+  </section>
+
+
+
+  
