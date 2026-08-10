@@ -38,7 +38,7 @@ padding-top: 20px;
 
 nav{
     display: flex;
-    
+    margin-right: 10px;
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid #F7F7F7;
@@ -736,6 +736,7 @@ font-size: 20px;
 /* ======= SECTION 4, COLUMN 2 ========= */
 .stories-cont{
     margin-right: 100px;
+    padding-top: 70px;
    
     
 }
@@ -791,8 +792,13 @@ font-size: 20px;
     margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
+}
+
+.sec-txt5{
+    font-size: 50px; 
+    font-weight: 50px;
 }
 
 .flex-sec5{
@@ -821,17 +827,58 @@ width: 350px;
 }
 
 .div-icon{
-    background-color: #A20000;
+    background-color: rgb(162, 0, 0);
     padding: 5px;
 }
 
+/* =================== FOOTER ===============*/
 
+footer{
+    background-color: rgba(162, 0, 0, 0.1);
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#footer-txt2{
+text-align: justify;
+}
+
+.footer-img{
+    width: 200px;
+    height: auto;
+
+}
+
+.footer-txt{
+line-height: 40px;
+
+}
+
+#footer-txt2{
+     border-right: solid 5px #A20000;
+     padding-right: 100px;
+}
+
+.foot-div{
+    border-right: solid 5px #A20000;
+    padding-right: 150px;
+    line-height: 40px;
+}
+
+.end{
+    background-color: rgba(162, 0, 0, 0.1);
+    padding-left: 600px;
+}
 
 /* ===================== WEB RESPONSIVENESS =================== */
 /* Phone */
 
 
 @media screen and (max-width: 480px){
+    
     /* Header */
     .header-color{
         width: 300vw;
@@ -844,7 +891,7 @@ width: 350px;
          flex-wrap: wrap;
          flex-direction: column;
         align-items: start;
-         padding-left: 50px;
+         padding-left: 80px;
          
 
     }
@@ -882,6 +929,7 @@ width: 350px;
      
     .section1{
         flex-direction: column;
+        padding-left: 10px;
     }
 
     .welcome-food{
@@ -1012,12 +1060,14 @@ width: 350px;
     /* ============== SECTION2===========*/
     .section2{
         margin-left: 10px;
+        margin-right: 30px;
+        padding-left: 0px;
     }
 
 
    .promo-box{
     margin-top: 90px;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 5px;
    }
     
@@ -1068,13 +1118,15 @@ width: 350px;
 
 
      .grid-container1{
-        column-gap: 5px;
+        column-gap: 10px;
 
      }
 
 
      /* ========================= SECTION 3 ===================*/
-
+     .section3{
+        padding-left: 5px;
+     }
      .best-img{
         width: 140px;
         height: auto;
@@ -1091,7 +1143,7 @@ width: 350px;
      .flex-products{
         flex-direction: column;
         row-gap: 30px;
-        margin-left: 30px;
+        margin-left: 15px;
      }
 
 
@@ -1126,16 +1178,18 @@ width: 350px;
 
      /* ============= SECTION 4 ========== */
 
+     
      .section4{
         flex-direction: column;
         margin-top: 20px;
+        padding-left: 0px;
      }
 
 
      .red-ground{
-         width: 40vh;
+         width: 30vh;
          height: 40vh;
-        margin-left: 30px;
+        margin-left: 50px;
      }
 
      .girl{
@@ -1182,12 +1236,12 @@ width: 350px;
     }
 
     .pos-girl{
-        bottom: -4878px;
-        left: 0px;
+        bottom: -4658px;
+        left: 30px;
     }
 
     .pos-emj{
-        bottom: -4750px;
+        bottom: -4550px;
         padding: 4px;
         background-color: transparent;
         border: none;
@@ -1196,19 +1250,20 @@ width: 350px;
     }
 
     #pos-emoji2{
-        bottom: -4850px ;
-        left: 190px;
+        bottom: -4700px ;
+        left: 250px;
         font-weight: bold;
     }
 
     .stories-cont{
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 0px;
         text-align: center;
+        margin-right: 25px;
     }
 
     .story-tx2{
-        font-size:50px ;
+        font-size:40px ;
     }
 
     .in-txt{
@@ -1222,10 +1277,53 @@ width: 350px;
     }
 
     .story-box{
-        padding: 5px;
+        padding: 0px;
+        margin-left: 10px;
     }
 
 
+    /* ================== SECTION 5 ================== */
+.section5{
+    padding-left: 40px;
+}
+.sec-txt5{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.flex-sec5{
+    flex-direction: column;
+}
+
+
+/* ========== FOOTER ========= */
+
+footer{
+    flex-direction: column;
+    padding-left: 10px;
+    
+
+}
+.foot-div{
+    padding-right: 0;
+    padding-bottom: 10px;
+    border-right: none;
+    border-bottom: solid 2px #A20000 ;
+}
+
+#footer-txt2{
+    text-align: center;
+    padding-right: 0;
+    border-right: none;
+      padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid 2px #A20000 ;
+}
+
+
+.footer-txt3{
+text-align: start;
+}
 
 
 
@@ -1318,6 +1416,29 @@ width: 350px;
 
 
 @media screen and (max-width:430px) {
+    nav{
+        padding-left: 70px;
+    }
+    .section1{
+        padding-left: 30px;
+
+    }
+
+    .section2{
+        padding-left: 30px;
+    }
+    .section3{
+        padding-left: 20px;
+    }
+
+    .section4{
+        padding-left: 20px;
+    }
+
+    .section5{
+        padding-left: 20px;
+    }
+    
   .pos-girl{
         bottom: -4730px;
         left: 0px;
