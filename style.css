@@ -659,7 +659,7 @@ font-size: 20px;
 .pos-girl{
      position: absolute;
     z-index: 2;
-    bottom:  -2412px;
+    bottom:  -2372gitpx;
     left: 75px;
     overflow-y: hidden;
     
@@ -1220,10 +1220,14 @@ line-height: 40px;
 
 
      .red-ground{
-         width: 45vh;
-         height: 45vh;
-        margin-left: 125px;
-        margin-top: 110px;
+         width: 50vh;
+         height: 50vh;
+        margin-left: 110px;
+        margin-top: 0px;
+        background: url(./Images/girl-eat.png);
+        background-size: cover;
+       
+        margin-right: 0px;
      }
 
      .girl{
@@ -1273,7 +1277,7 @@ line-height: 40px;
          position: absolute;
          overflow-y: visible;
         bottom: -5998px;
-       
+       display: none;
         left: 65px;
     }
 
@@ -1286,6 +1290,7 @@ line-height: 40px;
         font-weight: bold;
         left: 100px;
         margin-left: 70px;
+        display: none;
     }
 
     #pos-emoji2{
@@ -1333,7 +1338,7 @@ line-height: 40px;
     /* ================== SECTION 5 ================== */
 
     .section5{
-    padding-left: 40px;
+    padding-left: 5px;
 }
 .sec-txt5{
     font-size: 30px;
@@ -1344,7 +1349,7 @@ line-height: 40px;
 .flex-sec5{
     flex-direction: column;
     margin-left: 40px;
-
+    
 }
 
 
@@ -1396,7 +1401,10 @@ text-align: start;
 
 /*==========================================*/
 @media screen and (max-width: 375px){
-   .text-welcome{
+ 
+
+   
+    .text-welcome{
     margin-left: 20px;
    }
    
@@ -1418,7 +1426,10 @@ text-align: start;
   }
    
   
-
+.section3{
+    margin-left: 0px;
+  
+}
 
  .grid-container1{
     padding-left: 10px;
@@ -1709,7 +1720,7 @@ text-align: start;
 
 
     .section5{
-padding-left: 0gitpx;
+padding-left: 0px;
     }
 
 
