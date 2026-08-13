@@ -1327,7 +1327,7 @@ line-height: 40px;
         gap: 10px;
     }
 
-    .
+    
 
 
     /* ================== SECTION 5 ================== */
@@ -1639,3 +1639,79 @@ text-align: start;
   
 
 }
+
+
+
+
+
+
+@media screen and (max-width:360px){
+    nav{
+        padding-left: 40px;
+    }
+
+    .text-welcome{
+        margin-left: 30px;
+    }
+
+    .order-buttonsec{
+        margin-left: 60px;
+    }
+
+    .flex-food{
+        margin-left: 15px;
+    }
+
+    .vantage{
+        margin-left: 0px;
+    }
+
+    .moto-icon{
+        margin-left: 150px;
+    }
+
+    .section2{
+        margin-left: 30px;
+    }
+
+    .sectext{
+        margin-left: 20px;
+    }
+
+    .flex-products{
+        margin-left: 0px;
+    }
+
+
+    .section3{
+        padding-left: 4px;
+    }
+
+
+    .section4{
+        margin-top: 20px;
+    }
+
+
+    .red-ground{
+        width: 50vh;
+        height: 50vh;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+
+
+    .stories-cont{
+        margin-top: 0px;
+        margin-right: 25gitpx;
+
+    }
+
+
+    .section5{
+padding-left: 5px;
+    }
+
+
+
+} 
